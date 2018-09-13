@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+
+    <TextView
+        android:id="@+id/txtTestPing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        android:text="Testing App Server.."
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnPing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:paddingTop="15dp"
+        android:text="Ping.."
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:onClick="doPing"/>
+
+    <Button
+        android:id="@+id/btnPong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="35dp"
+        android:background="@android:color/holo_green_dark"
+        android:gravity="center"
+        android:text="PONG!!"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible" />
+</LinearLayout>
