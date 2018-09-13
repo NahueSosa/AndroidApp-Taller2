@@ -23,5 +23,6 @@ android:
     - sys-img-armeabi-v7a-android-28
     - sys-img-armeabi-v7a-android-19
   licenses:
+    - 'android-sdk-preview-license-.+'
     - 'android-sdk-license-.+'
     - 'google-gdk-license-.+'
